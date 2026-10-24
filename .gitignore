@@ -1,4 +1,10 @@
 ### VSCODE ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
 
 # Local History for Visual Studio Code
 .history/
@@ -194,6 +200,11 @@ bower_components
 *.sublime-workspace
 
 # IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
 
 # misc
 .sass-cache
@@ -293,7 +304,3 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
-branch_structure.json
-temp_auto_push.bat
-temp_interactive_push.bat
-.gitignore
